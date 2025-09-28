@@ -1,0 +1,16 @@
+{
+  "name": "hybrid-arbitrage-bot",
+  "version": "1.0.0",
+  "description": "Hybrid arbitrage bot for Aave and Balancer flash loans, deployed on Railway",
+  "private": true,
+  "type": "module",
+  "main": "hybridsimulationbot.js",
+  "scripts": {
+    "start": "node hybridsimulationbot.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.11.1"
+  }
+}
